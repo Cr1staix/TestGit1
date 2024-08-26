@@ -5,6 +5,9 @@ public class Main {
         int a = 4;
         int b = 7;
         int c = a + b;
+        if(a < b){
+            c = b -a;
+        }
         System.out.println(c);
     }
 }
