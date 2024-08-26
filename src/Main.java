@@ -4,10 +4,22 @@ public class Main {
     public static void main(String[] args) {
         int a = 4;
         int b = 7;
-        int c = a + b;
-        if(a < b){
-            c = b - a;
+        int c;
+
+        if (a < b){
+            c = subtructTwoNumbers(a, b);
+        } else {
+            c = sumTwoNumbers(a, b);
         }
+
         System.out.println(c);
+    }
+
+    public static int sumTwoNumbers(int a, int b) {
+        return a + b;
+    }
+
+    public static int subtructTwoNumbers(int a, int b) {
+        return b - a;
     }
 }
