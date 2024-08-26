@@ -6,7 +6,7 @@ public class Main {
         int b = 7;
         int c = a + b;
         if(a < b){
-            c = b -a;
+            c = b - a;
         }
         System.out.println(c);
     }
